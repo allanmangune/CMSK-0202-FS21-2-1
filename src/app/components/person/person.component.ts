@@ -8,7 +8,7 @@ import { Person } from '../../models/person.model';
 import { PersonService } from '../../services/person.service';
 
 @Component({
-  selector: 'app-person', // Or your custom selector
+  selector: 'app-person', 
   templateUrl: './person.component.html',
   styleUrls: ['./person.component.css']
 })

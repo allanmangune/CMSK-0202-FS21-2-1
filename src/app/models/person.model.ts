@@ -1,10 +1,44 @@
+/**
+ * Represents a person.
+ */
 export class Person {
-    public id!: number;
-    public firstName!: string;
-    public lastName!: string;
-    public address!: string;
-    public city!: string;
-    public province!: string;
-    public phone!: string;
-    public lastUpdated!: Date;
+    /**
+     * The ID of the person.
+     */
+    public id: number | undefined;
+
+    /**
+     * The first name of the person.
+     */
+    public firstName: string | undefined;
+
+    /**
+     * The last name of the person.
+     */
+    public lastName: string | undefined;
+
+    /**
+     * The address of the person.
+     */
+    public address: string | undefined;
+
+    /**
+     * The city of the person.
+     */
+    public city: string | undefined;
+
+    /**
+     * The province of the person.
+     */
+    public province: string | undefined;
+
+    /**
+     * The phone number of the person.
+     */
+    public phone: string | undefined;
+
+    /**
+     * The last updated date of the person.
+     */
+    public lastUpdated: Date | undefined;
 }
